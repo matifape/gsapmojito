@@ -43,7 +43,7 @@ const Hero = () => {
       .to(".left-leaf", { y: -200 }, 0);
 
     const startValue = isMobile ? "top 50%" : "center 60%";
-    const endValue = isMobile ? "120% top" : "bottom top";
+    const endValue = isMobile ? "272% top" : "bottom top";
 
     let tl = gsap.timeline({
       scrollTrigger: {
@@ -65,7 +65,7 @@ const Hero = () => {
   return (
     <>
       <section id="hero" className="noisy">
-        <h1 className="title">Black Bear</h1>
+        <h1 className="title">Black beard</h1>
         <img
           src="/images/hero-left-leaf.png"
           alt="left-leaf"
